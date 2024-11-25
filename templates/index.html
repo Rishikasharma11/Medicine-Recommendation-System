@@ -28,19 +28,16 @@
 
 <body>
     <!-- ------------------- main form of page --------------------->
-    <h1 class="text-center">Health Care Center</h1>
+    <h1 class="text-center mt-4">Health Care Center</h1>
     <div class="containter mt-4 my-4" style="background:black; color:white; border-radius:15px; padding:50px;">
         <form action="/predict" method="post">
             <div class="form-group">
                 <label for=" symptoms">Type Symptoms</label>
+                <br>
+                <br>
                 <input type="text" class="form-control" name="symptoms"
                     placeholder="use symptoms like itching, vomiting, skin_rash">
             </div>
-            <br>
-            <button type="button" id="startSpeechRecognition" class="btn btn-primary"
-                style="margin-left:3px;border:1px solid white; border-radius:20px;">
-                Start Speech Recognition
-            </button>
             <br>
 
             <!-- Display the transcribed text here -->
